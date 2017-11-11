@@ -14,7 +14,7 @@ Forked from : https://github.com/weifeiyue/vue-datepicker-local
 ### Install
 
 ```bash
-$ npm install vue-datepicker-local
+$ npm install lsldigital/vue-datepicker-local
 ```
 
 ### ES6
