@@ -249,7 +249,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .calendar {
   float: left;
   display: inline-block;
