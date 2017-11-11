@@ -148,7 +148,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .datepicker {
   display: inline-block;
   position: relative;
