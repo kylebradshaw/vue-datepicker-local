@@ -3,10 +3,6 @@
 Adjustments added so that it works within other vue components using scss.
 
 ### A Beautiful Datepicker Component For Vue2
-* Lightweight (less than 4kb minified and gzipped)
-* Only dependencies Vue
-* Beautiful!
-
 Forked from : https://github.com/weifeiyue/vue-datepicker-local
 
 ## Usage
@@ -57,16 +53,16 @@ export default {
 
 ```
 {
-        dow: 0, // Sunday is the first day of the week
-        hourTip: 'Select Hour', // tip of select hour
-        minuteTip: 'Select Minute', // tip of select minute
-        secondTip: 'Select Second', // tip of select second
-        yearSuffix: '', // suffix of head year
-        monthsHead: 'Janvier_Fevrier_Mars_Avril_Mai_Juin_Julliet_Aout_Septembre_Octobre_Novembre_Decembre'.split('_'), // months of head
-        months: 'Jan_Fev_Mar_Avr_Mai_Jun_Jul_Aout_Sep_Oct_Nov_Dec'.split('_'), // months of panel
-        weeks: 'Dim_Lun_Mar_Mer_Jeu_Ven_Sam'.split('_') // weeks
-      }
-      ```
+  dow: 0, // Sunday is the first day of the week
+  hourTip: 'Select Hour', // tip of select hour
+  minuteTip: 'Select Minute', // tip of select minute
+  secondTip: 'Select Second', // tip of select second
+  yearSuffix: '', // suffix of head year
+  monthsHead: 'Janvier_Fevrier_Mars_Avril_Mai_Juin_Julliet_Aout_Septembre_Octobre_Novembre_Decembre'.split('_'), // months of head
+  months: 'Jan_Fev_Mar_Avr_Mai_Jun_Jul_Aout_Sep_Oct_Nov_Dec'.split('_'), // months of panel
+  weeks: 'Dim_Lun_Mar_Mer_Jeu_Ven_Sam'.split('_') // weeks
+}
+```
 
 ## License
 vue-datepicker-local is licensed under [The MIT License](LICENSE).
